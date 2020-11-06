@@ -12,6 +12,12 @@ h2 {
     font-family: 'Anton', sans-serif;
 }
 
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 9999
+}
+
 .nav {
     display: flex;
     justify-items: center;
@@ -73,7 +79,7 @@ p {
 }
 
 .footer {
-    background: rgb(0, 42, 83);
+    background: #007bfff1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,9 +92,19 @@ p {
     color: white;
 }
 
+.pf {
+    font-family: 'Anton', sans-serif;
+}
+
 .imgF {
     width: 44px;
     height: 44px;
+    border-radius: 50%;
+}
+
+.imgIG {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
@@ -116,20 +132,22 @@ p {
     }
 }
 
-@media screen and (max-width:500px) {
-    .bloques {
-        width: 80%;
-        flex-wrap: wrap;
-    }
-    .bloques:hover {
-        width: 100%;
-        height: 550px;
-    }
-}
-
+// @media screen and (max-width:500px) {
+//     .bloques {
+//         width: 90%;
+//         flex-wrap: wrap;
+//     }
+//     .bloques:hover {
+//         width: 100%;
+//         height: 550px;
+//     }
+//     .footer {
+//         height: 100%;
+//     }
+// }
 @media (max-width:768px) {
     .bloques {
-        width: 80%;
+        width: 90%;
         flex-wrap: wrap;
     }
     // me gustaria agregarle un hover al responsive pero no me gusta como quedan, y no me sale como quiero
