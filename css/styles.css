@@ -1,144 +1,145 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h1 {
-  font-family: "Anton", sans-serif;
+    font-family: "Anton", sans-serif;
 }
 
 h2 {
-  font-family: "Anton", sans-serif;
+    font-family: "Anton", sans-serif;
 }
 
 .header {
-  position: sticky;
-  top: 0;
-  z-index: 9999;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 .nav {
-  display: flex;
-  justify-items: center;
-  align-items: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 .img-bloques {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 .bloques:hover {
-  width: 22%;
-  height: 550px;
+    width: 22%;
+    height: 550px;
 }
 
 p {
-  font-family: "Anton", sans-serif;
+    font-family: "Anton", sans-serif;
 }
 
 .contenedor {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  min-height: 100vh;
-  color: black;
-  background-color: transparent;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px;
-  margin: 5px 0 5px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    color: black;
+    background-color: transparent;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0 5px 0;
 }
 
 .bloques {
-  width: 20%;
-  min-height: 525px;
-  border: 4px solid black;
-  color: black;
-  background: transparent;
-  margin: 5px;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  align-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 25px;
-  border-radius: 20px;
+    width: 20%;
+    min-height: 525px;
+    border: 4px solid black;
+    color: black;
+    background: transparent;
+    margin: 5px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 25px;
+    border-radius: 20px;
 }
 
 .row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 15px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0 50px 0;
 }
 
 .footer {
-  background: #007bfff1;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  height: 85px;
+    background: #007bfff1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 85px;
 }
 
 .spanF {
-  font-size: 13px;
-  color: white;
+    font-size: 13px;
+    color: white;
 }
 
 .pf {
-  font-family: "Anton", sans-serif;
+    font-family: "Anton", sans-serif;
 }
 
 .imgF {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
 }
 
 .imgIG {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 .Monedita {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  animation-name: Monedita;
-  animation-delay: 0.5s;
-  animation-duration: 0.8s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  animation-timing-function: cubic-bezier(0, -0.19, 0.29, 0.99);
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation-name: Monedita;
+    animation-delay: 0.5s;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(0, -0.19, 0.29, 0.99);
 }
 
 @keyframes Monedita {
-  0% {
-    bottom: 0;
-    left: 0;
-  }
-  100% {
-    bottom: 15px;
-    left: 0;
-  }
+    0% {
+        bottom: 0;
+        left: 0;
+    }
+    100% {
+        bottom: 15px;
+        left: 0;
+    }
 }
-@media (max-width: 768px) {
-  .bloques {
-    width: 90%;
-    flex-wrap: wrap;
-  }
 
-  .bloques:hover {
-    width: 100%;
-    height: 550px;
-  }
+@media (max-width: 768px) {
+    .bloques {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .bloques:hover {
+        width: 100%;
+        height: 550px;
+    }
 }
+
 
 /*# sourceMappingURL=styles.css.map */

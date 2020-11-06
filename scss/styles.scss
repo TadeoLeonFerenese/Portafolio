@@ -132,25 +132,11 @@ p {
     }
 }
 
-// @media screen and (max-width:500px) {
-//     .bloques {
-//         width: 90%;
-//         flex-wrap: wrap;
-//     }
-//     .bloques:hover {
-//         width: 100%;
-//         height: 550px;
-//     }
-//     .footer {
-//         height: 100%;
-//     }
-// }
 @media (max-width:768px) {
     .bloques {
         width: 90%;
         flex-wrap: wrap;
     }
-    // me gustaria agregarle un hover al responsive pero no me gusta como quedan, y no me sale como quiero
     .bloques:hover {
         width: 100%;
         height: 550px;
