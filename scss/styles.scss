@@ -2,6 +2,7 @@ $color1: white;
 $color2: black;
 * {
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -136,9 +137,13 @@ p {
     .bloques {
         width: 90%;
         flex-wrap: wrap;
+        padding: 2px;
     }
     .bloques:hover {
         width: 100%;
         height: 550px;
+    }
+    .body {
+        width: 100%;
     }
 }
